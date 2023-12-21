@@ -14,6 +14,9 @@ const userProgressCtx=useContext(UserProgressContext);
     function handleClose(){
         userProgressCtx.hideCheckout();
     }
+    function handleSubmit(event){
+        event.preventDefault();
+    }
    
    return (<Modal className='checkout' open={userProgressCtx.progress === 'checkout'} onClose={handleClose}>
         <form>
@@ -24,7 +27,7 @@ const userProgressCtx=useContext(UserProgressContext);
             <Input label="E-Mail Address" type="email" id="email"/>
             <Input label="Street" type="text" id="street"/>
             <div className="control-row">
-                <Input label="Postal Code" type="text" id="postal-code"/>
+                <Input label="Postal Code" type="text" id="postal-code"/> 
                 <Input label="City" type="text" id="city"/>
 
             </div>
