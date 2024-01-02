@@ -1,4 +1,6 @@
-[
+
+  {
+    "meals": [
   {
     "id": "m1",
     "name": "Mac & Cheese",
@@ -140,3 +142,4 @@
     "image": "images/falafel-wrap.jpg"
   }
 ]
+  }

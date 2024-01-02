@@ -9,8 +9,9 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#29251c, #2c2306);
-  color: #d9e2f1;
+  /* background-color: #ccc; */
+  background: linear-gradient(#312828, #333335);
+  color: #0a0b0c;
   min-height: 100vh;
 }
 
@@ -62,7 +63,7 @@ h1 {
 }
 
 .meal-item {
-  background-color: #1d1a16;
+  background-color: #fff;
   border-radius: 1rem;
   overflow: hidden;
   text-align: center;
@@ -235,7 +236,7 @@ h1 {
 }
 
 .modal {
-  background-color: #e4ddd4;
+  background-color: #fff;
   border-radius: 6px;
   border: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
@@ -249,6 +250,19 @@ h1 {
   background-color: rgba(0, 0, 0, 0.55);
 }
 
+.center{
+  text-align: center;
+}
+.error{
+  background-color: rgb(221, 163, 163);
+  text-align: center;
+  color: rgb(122, 56, 56);
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 5px;
+
+}
 @keyframes fade-slide-up {
   from {
     opacity: 0;
